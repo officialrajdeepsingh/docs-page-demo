@@ -19,15 +19,11 @@
     "links": [
       {
         "title": "GitHub",
-        "href": "#"
-      },
-      {
-        "title": "Discord",
-        "href": "#"
+        "href": "https://github.com/officialrajdeepsingh/docs-page-demo"
       },
       {
         "title": "X",
-        "href": "#"
+        "href": "https://x.com/Official_R_deep"
       }
     ]
   },
@@ -36,10 +32,9 @@
     "showPageImage": true
   },
   "social": {
-    "github": "invertase/docs.page",
-    "discord": "invertase",
-    "x": "@invertaseio",
-    "linkedin": "officialrajdeepsingh"
+    "github": "officialrajdeepsingh/docs-page-demo",
+    "x": "@Official_R_deep",
+    "linkedin": "officalrajdeepsingh"
   },
   "variables": {
     "versions": {
@@ -69,14 +64,26 @@
       "tab": "root",
       "icon": "house",
       "pages": [
-        { "title": "Overview", "href": "/", "icon": "book" },
+        {
+          "title": "Overview",
+          "href": "/",
+          "icon": "book"
+        },
         {
           "title": "Getting Started",
           "href": "/getting-started",
           "icon": "rocket"
         },
-        { "title": "Configuration", "href": "/configuration", "icon": "gear" },
-        { "title": "Navigation", "href": "/navigation", "icon": "map" },
+        {
+          "title": "Configuration",
+          "href": "/configuration",
+          "icon": "gear"
+        },
+        {
+          "title": "Navigation",
+          "href": "/navigation",
+          "icon": "map"
+        },
         {
           "title": "Writing Content",
           "href": "/writing-content",
