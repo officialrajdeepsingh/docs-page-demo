@@ -1,0 +1,237 @@
+{
+  "$schema": "https://docs.page/schema.json",
+  "name": "Docs.page",
+  "description": "Ship documentation, like you ship code",
+  "logo": {
+    "light": "https://static.invertase.io/assets/docs.page/docs-page-logo.png"
+  },
+  "favicon": "https://static.invertase.io/assets/docs.page/docs-page-logo.png",
+  "theme": {
+    "primary": "#de40eb",
+    "primaryLight": "#BFA213"
+  },
+  "seo": {
+    "noindex": true
+  },
+  "header": {
+    "showName": true,
+    "showGitHubCard": false,
+    "links": [
+      {
+        "title": "GitHub",
+        "href": "#"
+      },
+      {
+        "title": "Discord",
+        "href": "#"
+      },
+      {
+        "title": "X",
+        "href": "#"
+      }
+    ]
+  },
+  "content": {
+    "showPageTitle": true,
+    "showPageImage": true
+  },
+  "social": {
+    "github": "invertase/docs.page",
+    "discord": "invertase",
+    "x": "@invertaseio",
+    "linkedin": "officialrajdeepsingh"
+  },
+  "variables": {
+    "versions": {
+      "default": "1.0.0"
+    }
+  },
+  "tabs": [
+    {
+      "id": "root",
+      "title": "Documentation",
+      "href": "/"
+    },
+    {
+      "id": "components",
+      "title": "Components",
+      "href": "/components"
+    },
+    {
+      "id": "terms-privacy",
+      "title": "Terms & Privacy",
+      "href": "/terms-privacy"
+    }
+  ],
+  "sidebar": [
+    {
+      "group": "Getting Started",
+      "tab": "root",
+      "icon": "house",
+      "pages": [
+        { "title": "Overview", "href": "/", "icon": "book" },
+        {
+          "title": "Getting Started",
+          "href": "/getting-started",
+          "icon": "rocket"
+        },
+        { "title": "Configuration", "href": "/configuration", "icon": "gear" },
+        { "title": "Navigation", "href": "/navigation", "icon": "map" },
+        {
+          "title": "Writing Content",
+          "href": "/writing-content",
+          "icon": "pencil"
+        },
+        {
+          "title": "Frontmatter",
+          "href": "/frontmatter",
+          "icon": "circle-info"
+        },
+        {
+          "title": "Local Previewing",
+          "href": "/local-previewing",
+          "icon": "eye"
+        },
+        {
+          "title": "Live Previews",
+          "href": "/live-previews",
+          "icon": "code-branch"
+        },
+        {
+          "title": "Publishing",
+          "href": "/publishing",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "group": "Components",
+      "icon": "grip",
+      "tab": "components",
+      "pages": [
+        {
+          "title": "Getting Started",
+          "href": "/components",
+          "icon": "rocket"
+        },
+        {
+          "title": "Accordion",
+          "href": "/components/accordion",
+          "icon": "square-caret-down"
+        },
+        {
+          "title": "Callouts",
+          "href": "/components/callouts",
+          "icon": "bullhorn"
+        },
+        {
+          "title": "Cards",
+          "href": "/components/cards",
+          "icon": "square-full"
+        },
+        {
+          "title": "Code Blocks",
+          "href": "/components/code-blocks",
+          "icon": "code"
+        },
+        {
+          "title": "Code Group",
+          "href": "/components/code-group",
+          "icon": "laptop-code"
+        },
+        {
+          "title": "Headings",
+          "href": "/components/headings",
+          "icon": "heading"
+        },
+        {
+          "title": "Tweet",
+          "href": "/components/tweet",
+          "icon": "twitter"
+        },
+        {
+          "title": "Tabs",
+          "href": "/components/tabs",
+          "icon": "table-columns"
+        },
+        {
+          "title": "Icons",
+          "href": "/components/icons",
+          "icon": "icons"
+        },
+        {
+          "title": "Images",
+          "href": "/components/images",
+          "icon": "image"
+        },
+        {
+          "title": "Property",
+          "href": "/components/property",
+          "icon": "signature"
+        },
+        {
+          "title": "Steps",
+          "href": "/components/steps",
+          "icon": "list-ol"
+        },
+        {
+          "title": "YouTube",
+          "href": "/components/youtube",
+          "icon": "youtube"
+        },
+        {
+          "title": "Vimeo",
+          "href": "/components/vimeo",
+          "icon": "vimeo"
+        },
+        {
+          "title": "Video",
+          "href": "/components/video",
+          "icon": "video"
+        },
+        {
+          "title": "Zapp!",
+          "href": "/components/zapp",
+          "icon": "bolt"
+        },
+        {
+          "title": "Custom Components",
+          "href": "/components/custom",
+          "icon": "square-pen"
+        }
+      ]
+    },
+    {
+      "group": "Terms & Privacy",
+      "tab": "terms-privacy",
+      "icon": "question",
+      "pages": [
+        {
+          "title": "Terms and Conditions",
+          "icon": "file-shield",
+          "href": "/terms-privacy/terms-and-conditions"
+        },
+        {
+          "title": "Privacy Policy",
+          "icon": "shield-halved",
+          "href": "/terms-privacy/privacy-policy"
+        }
+      ]
+    },
+    {
+      "tab": "root",
+      "group": "Misc.",
+      "icon": "tags",
+      "pages": [
+        {
+          "title": "Contributing",
+          "href": "/contributing",
+          "icon": "heart"
+        }
+      ]
+    }
+  ],
+  "scripts": {
+    "googleTagManager": "GTM-W89J6BX"
+  }
+}
