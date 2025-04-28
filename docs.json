@@ -5,7 +5,10 @@
   "logo": {
     "light": "https://static.invertase.io/assets/docs.page/docs-page-logo.png"
   },
-  "favicon": "https://static.invertase.io/assets/docs.page/docs-page-logo.png",
+  "favicon": {
+    "light": "https://cdn-icons-png.flaticon.com/24/9664/9664027.png",
+    "dark": "https://cdn-icons-png.flaticon.com/24/9643/9643115.png"
+  },
   "theme": {
     "primary": "#de40eb",
     "primaryLight": "#BFA213"
