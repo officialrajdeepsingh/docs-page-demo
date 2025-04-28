@@ -19,7 +19,7 @@
   },
   "header": {
     "showName": true,
-    "showGitHubCard": false,
+    "showGitHubCard": true,
     "links": [
       {
         "title": "GitHub",
