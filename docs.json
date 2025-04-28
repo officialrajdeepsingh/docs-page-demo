@@ -14,6 +14,13 @@
     "primary": "#de40eb",
     "primaryLight": "#BFA213"
   },
+  "search": {
+    "docsearch": {
+      "appId": "gyt67b9ho789vres566",
+      "apiKey": "yuger545784kiuygvgb",
+      "indexName": "y790jghf456dd3567ji-0ppl"
+    }
+  },
   "seo": {
     "noindex": true
   },
